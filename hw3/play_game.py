@@ -15,36 +15,39 @@ def show_and_shuffle():
     print(DECK)
 
 def user_initial_hand():
-    """Deal two cards to the user and display."""
     global USER_HAND
     USER_HAND.append(DECK.get_card())
     USER_HAND.append(DECK.get_card())
     for card in USER_HAND:
         print(card)
-        add_score(card)  # Correctly update the score during initial hand
+        add_score(card) 
 
 def add_score(card, dealer=False):
-    """Add the value of the card to the respective score."""
     global USER_SCORE, DEALER_SCORE
 
     if dealer:
         if card.face == "Ace":
-            DEALER_SCORE += 11 if DEALER_SCORE + 11 <= 21 else 1
+            if DEALER_SCORE + 11 <= 21:
+                DEALER_SCORE += 11
+            else:
+                DEALER_SCORE += 1
         else:
             DEALER_SCORE += card.val
     else:
         if card.face == "Ace":
-            USER_SCORE += 11 if USER_SCORE + 11 <= 21 else 1
+            if USER_SCORE + 11 <= 21:
+                USER_SCORE += 11
+            else:
+                USER_SCORE += 1
         else:
             USER_SCORE += card.val
 
 def user_hit():
-    """Allow the user to hit and draw another card."""
     global USER_HAND, GAME_RUNNING
     card = DECK.get_card()
     USER_HAND.append(card)
-    print(f"Card drawn: {card}")
-    add_score(card)  # Properly update the user's score
+    print(f"Card drawn: {card}") #TODO
+    add_score(card)
     print_score()
 
     if USER_SCORE > 21:
@@ -52,14 +55,12 @@ def user_hit():
         GAME_RUNNING = False
 
 def print_score(dealer=False):
-    """Print the current score for the user or dealer."""
     if dealer:
         print(f"Dealer's total score is: {DEALER_SCORE}")
     else:
         print(f"Your total score is: {USER_SCORE}")
 
 def dealer_initial_hand():
-    """Deal two cards to the dealer and display one of them."""
     global DEALER_HAND
     for i in range(2):
         card = DECK.get_card()
@@ -68,7 +69,6 @@ def dealer_initial_hand():
         print(f'Dealer card number {i+1} is: {card}')
 
 def dealer_hit():
-    """Handle the dealer's turn, drawing cards according to the rules."""
     global GAME_RUNNING
     while DEALER_SCORE < 17:  # Dealer hits until reaching 17 or more
         card = DECK.get_card()
@@ -91,7 +91,6 @@ def dealer_hit():
     GAME_RUNNING = False  # End the game after the dealer finishes
 
 def ask_user():
-    """Ask the user if they would like to hit or stay."""
     global GAME_RUNNING
     valid = False
     while not valid and GAME_RUNNING:
@@ -108,7 +107,6 @@ def ask_user():
             print("Please provide a valid input (y/n)")
 
 def reset_game():
-    """Reset the game state for a new game."""
     global USER_SCORE, DEALER_SCORE, USER_HAND, DEALER_HAND, GAME_RUNNING
     USER_SCORE = 0
     DEALER_SCORE = 0
@@ -117,7 +115,6 @@ def reset_game():
     GAME_RUNNING = True
 
 def game_loop():
-    """Main game loop to handle the game's flow."""
     show_and_shuffle()
     user_initial_hand()
     print_score()
@@ -126,7 +123,6 @@ def game_loop():
         ask_user()
 
 def main():
-    """Start the game and handle play-again logic."""
     game_loop()
     while True:
         play_again = input("Would you like to play again? (y/n): ").lower()
