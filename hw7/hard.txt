@@ -1,0 +1,11 @@
+There are different ways to delete nodes based on how many children it has.
+If the node has no children (leaf node) you can just set its parents reference to None.
+If the node only has one child, the parent of the node is connected directly to the child
+which bypasses the node. This keeps the tree structure intact. If the node has two children
+then the node is replaced by the smallest node in its right subtree. The value of that node 
+is copied to the node being deleted. Then that node that was copied is deleted. 
+Certain edge cases need to be adressed. When you have to delete the root node, it needs to 
+be replaced by the appropriate child. Deeply unbalanced trees can lead to excessive recursion 
+depth when trying to find the node to delete. Fix this by using iterative methods instead of
+recursion. Finally, when deleting an empty node, you must immediatley return without operators.
+
