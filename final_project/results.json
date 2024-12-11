@@ -1,0 +1,264 @@
+[
+    [
+        {
+            "start_currency": "bitcoin-cash",
+            "end_currency": "chainlink",
+            "arbitrage_factor": 1.0002183478327302,
+            "forward_path": [
+                "bitcoin-cash",
+                "bitcoin",
+                "chainlink"
+            ],
+            "reverse_path": [
+                "chainlink",
+                "bitcoin",
+                "bitcoin-cash"
+            ],
+            "timestamp": "2024-12-10 22:52:58"
+        },
+        {
+            "start_currency": "bitcoin-cash",
+            "end_currency": "polkadot",
+            "arbitrage_factor": 1.0000124556921954,
+            "forward_path": [
+                "bitcoin-cash",
+                "bitcoin",
+                "polkadot"
+            ],
+            "reverse_path": [
+                "polkadot",
+                "bitcoin",
+                "bitcoin-cash"
+            ],
+            "timestamp": "2024-12-10 22:52:59"
+        },
+        {
+            "start_currency": "bitcoin-cash",
+            "end_currency": "ethereum",
+            "arbitrage_factor": 1.0002469706196946,
+            "forward_path": [
+                "bitcoin-cash",
+                "bitcoin",
+                "ethereum"
+            ],
+            "reverse_path": [
+                "ethereum",
+                "bitcoin",
+                "bitcoin-cash"
+            ],
+            "timestamp": "2024-12-10 22:52:59"
+        },
+        {
+            "start_currency": "bitcoin-cash",
+            "end_currency": "bitcoin",
+            "arbitrage_factor": 1.00015612812,
+            "forward_path": [
+                "bitcoin-cash",
+                "bitcoin"
+            ],
+            "reverse_path": [
+                "bitcoin",
+                "bitcoin-cash"
+            ],
+            "timestamp": "2024-12-10 22:52:59"
+        },
+        {
+            "start_currency": "chainlink",
+            "end_currency": "bitcoin-cash",
+            "arbitrage_factor": 1.0002183478327302,
+            "forward_path": [
+                "chainlink",
+                "bitcoin",
+                "bitcoin-cash"
+            ],
+            "reverse_path": [
+                "bitcoin-cash",
+                "bitcoin",
+                "chainlink"
+            ],
+            "timestamp": "2024-12-10 22:52:59"
+        },
+        {
+            "start_currency": "chainlink",
+            "end_currency": "ethereum",
+            "arbitrage_factor": 1.0002708398446973,
+            "forward_path": [
+                "chainlink",
+                "bitcoin-cash",
+                "bitcoin",
+                "ethereum"
+            ],
+            "reverse_path": [
+                "ethereum",
+                "bitcoin-cash",
+                "bitcoin",
+                "chainlink"
+            ],
+            "timestamp": "2024-12-10 22:52:59"
+        },
+        {
+            "start_currency": "chainlink",
+            "end_currency": "bitcoin",
+            "arbitrage_factor": 1.0001281586833461,
+            "forward_path": [
+                "chainlink",
+                "bitcoin-cash",
+                "bitcoin"
+            ],
+            "reverse_path": [
+                "bitcoin",
+                "bitcoin-cash",
+                "chainlink"
+            ],
+            "timestamp": "2024-12-10 22:53:00"
+        },
+        {
+            "start_currency": "polkadot",
+            "end_currency": "bitcoin-cash",
+            "arbitrage_factor": 1.0000124556921954,
+            "forward_path": [
+                "polkadot",
+                "bitcoin",
+                "bitcoin-cash"
+            ],
+            "reverse_path": [
+                "bitcoin-cash",
+                "bitcoin",
+                "polkadot"
+            ],
+            "timestamp": "2024-12-10 22:53:00"
+        },
+        {
+            "start_currency": "polkadot",
+            "end_currency": "ethereum",
+            "arbitrage_factor": 1.0000627362241266,
+            "forward_path": [
+                "polkadot",
+                "bitcoin",
+                "bitcoin-cash",
+                "ethereum"
+            ],
+            "reverse_path": [
+                "ethereum",
+                "bitcoin-cash",
+                "bitcoin",
+                "polkadot"
+            ],
+            "timestamp": "2024-12-10 22:53:00"
+        },
+        {
+            "start_currency": "ethereum",
+            "end_currency": "bitcoin-cash",
+            "arbitrage_factor": 1.0002469706196946,
+            "forward_path": [
+                "ethereum",
+                "bitcoin",
+                "bitcoin-cash"
+            ],
+            "reverse_path": [
+                "bitcoin-cash",
+                "bitcoin",
+                "ethereum"
+            ],
+            "timestamp": "2024-12-10 22:53:00"
+        },
+        {
+            "start_currency": "ethereum",
+            "end_currency": "chainlink",
+            "arbitrage_factor": 1.0002708398446973,
+            "forward_path": [
+                "ethereum",
+                "bitcoin-cash",
+                "bitcoin",
+                "chainlink"
+            ],
+            "reverse_path": [
+                "chainlink",
+                "bitcoin-cash",
+                "bitcoin",
+                "ethereum"
+            ],
+            "timestamp": "2024-12-10 22:53:00"
+        },
+        {
+            "start_currency": "ethereum",
+            "end_currency": "polkadot",
+            "arbitrage_factor": 1.0000627362241266,
+            "forward_path": [
+                "ethereum",
+                "bitcoin-cash",
+                "bitcoin",
+                "polkadot"
+            ],
+            "reverse_path": [
+                "polkadot",
+                "bitcoin",
+                "bitcoin-cash",
+                "ethereum"
+            ],
+            "timestamp": "2024-12-10 22:53:01"
+        },
+        {
+            "start_currency": "ethereum",
+            "end_currency": "bitcoin",
+            "arbitrage_factor": 1.0002064158757673,
+            "forward_path": [
+                "ethereum",
+                "bitcoin-cash",
+                "bitcoin"
+            ],
+            "reverse_path": [
+                "bitcoin",
+                "bitcoin-cash",
+                "ethereum"
+            ],
+            "timestamp": "2024-12-10 22:53:01"
+        },
+        {
+            "start_currency": "bitcoin",
+            "end_currency": "bitcoin-cash",
+            "arbitrage_factor": 1.00015612812,
+            "forward_path": [
+                "bitcoin",
+                "bitcoin-cash"
+            ],
+            "reverse_path": [
+                "bitcoin-cash",
+                "bitcoin"
+            ],
+            "timestamp": "2024-12-10 22:53:01"
+        },
+        {
+            "start_currency": "bitcoin",
+            "end_currency": "chainlink",
+            "arbitrage_factor": 1.0001281586833461,
+            "forward_path": [
+                "bitcoin",
+                "bitcoin-cash",
+                "chainlink"
+            ],
+            "reverse_path": [
+                "chainlink",
+                "bitcoin-cash",
+                "bitcoin"
+            ],
+            "timestamp": "2024-12-10 22:53:01"
+        },
+        {
+            "start_currency": "bitcoin",
+            "end_currency": "ethereum",
+            "arbitrage_factor": 1.0002064158757673,
+            "forward_path": [
+                "bitcoin",
+                "bitcoin-cash",
+                "ethereum"
+            ],
+            "reverse_path": [
+                "ethereum",
+                "bitcoin-cash",
+                "bitcoin"
+            ],
+            "timestamp": "2024-12-10 22:53:01"
+        }
+    ]
+]

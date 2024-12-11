@@ -1,0 +1,2 @@
+currency_from, currency_to, exchange_rate
+link, dot, 2.66977

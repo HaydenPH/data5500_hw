@@ -1,0 +1,2 @@
+currency_from, currency_to, exchange_rate
+link, eth, 0.00611941

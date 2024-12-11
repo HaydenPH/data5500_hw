@@ -13,8 +13,8 @@ from networkx.classes.function import path_weight
 import matplotlib.pyplot as plt
 
 # define lists of crypto ID's and symbols
-ids = ['ripple', 'cardano', 'bitcoin-cash', 'eos', 'litecoin', 'ethereum', 'bitcoin']
-currencies = ['xrp', 'ada', 'bch', 'eos', 'ltc', 'eth', 'btc']
+ids = ['ripple', 'cardano', 'bitcoin-cash', 'eos', 'litecoin', 'ethereum', 'bitcoin', 'polkadot', 'tron', 'avalanche', 'dogecoin', 'cronos', 'aptos']
+currencies = ['xrp', 'ada', 'bch', 'eos', 'ltc', 'eth', 'btc', 'dot', 'trx', 'avax', 'doge', 'cro', 'apt']
 
 g = nx.DiGraph() #Creates graph
 edges = []

@@ -1,0 +1,2 @@
+currency_from, currency_to, exchange_rate
+dot, bch, 0.01616317

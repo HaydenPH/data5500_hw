@@ -1,0 +1,2 @@
+currency_from, currency_to, exchange_rate
+eth, btc, 0.03750842

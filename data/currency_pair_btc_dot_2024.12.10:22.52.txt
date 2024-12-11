@@ -1,0 +1,2 @@
+currency_from, currency_to, exchange_rate
+btc, dot, 11633

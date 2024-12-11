@@ -1,0 +1,2 @@
+currency_from, currency_to, exchange_rate
+mkr, btc, 0.01802617
